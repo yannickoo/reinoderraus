@@ -1,0 +1,21 @@
+{{#loggedIn}}
+  {{#loading}}
+  <div class="loading-wrapper">
+    <progress></progress>
+  </div>
+  {{/loading}}
+  {{^loading}}
+  <div class="user-name">
+    <h3>{{currentUser.name}}</h3>
+  </div>
+  <div class="actions">
+    <button id="rein">Rein</button>
+    <button id="next">Skip</button>
+    <button id="raus">Raus</button>
+  </div>
+  {{/loading}}
+{{/loggedIn}}
+
+<div class="img {{#loading}}hidden{{/loading}}">
+  <img id="img" src="{{link}}" />
+</div>

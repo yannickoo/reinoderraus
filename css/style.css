@@ -1,0 +1,57 @@
+body {
+  text-align: center;
+}
+
+
+h1 {
+  font-size: 48px;
+  margin-bottom: 0px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+#main, #main-inner {
+  position: relative;
+}
+
+#main-inner {
+  max-width: 560px;
+  padding: 0px 20px;
+  margin: 0 auto;
+  height: 420px;
+  max-height: 420px;
+}
+
+button {
+  padding: 8px 40px;
+  background: white;
+  border: 1px solid black!important;
+}
+
+.actions {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+progress {
+  margin-top: 150px;
+}
+
+.hidden {
+  display: none;
+}
+
+@media (max-width: 500px){
+  button {
+    display: block;
+    width: 100%;
+  }
+}
+
+.counter-wrapper > div {
+  display: inline-block;
+  width: 50%;
+}
